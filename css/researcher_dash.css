@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Sen Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Sen Regular"),
+    url("../assets/font/sen-cufonfonts-webfont/Sen-Regular.woff") format("woff");
+}
+  
+@font-face {
+    font-family: "Sen Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Sen Regular"),
+    url("../assets/font/sen-cufonfonts-webfont/Sen-Regular.woff") format("woff");
+}
+  
+@font-face {
+    font-family: "Sen Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Sen Bold"),
+    url("../assets/font/sen-cufonfonts-webfont/Sen-Bold.woff") format("woff");
+}
+  
+@font-face {
+    font-family: "Sen ExtraBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Sen ExtraBold"),
+    url("../assets/font/sen-cufonfonts-webfont/Sen-ExtraBold.woff")
+    format("woff");
+}
+
+
+body {
+    font-family: "Sen Regular", sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/sch-bg.png);
+}
+
+header {
+    background-color: #B13635;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo_section {
+    display: flex;
+    align-items: center;
+}
+
+.Logo_section img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.IRB_title h1 {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1;
+}
+
+#menu_bar {
+    display: flex;
+    align-items: center;
+}
+
+.inner_menu_bar a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.inner_menu_bar a:hover {
+    text-decoration: underline;
+}
+
+#User_profile {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#User_profile p {
+    margin-right: 10px;
+}
+
+#notification_panel {
+    border: 2px solid #8B0000;
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px;
+    width: 80%;
+}
+
+#notification_panel h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+
+#notification_panel p {
+    margin: 10px 0;
+}
+
+#page_button_area {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#page_button_area button {
+    background-color: #8B0000;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#page_button_area button:hover {
+    background-color: #B13635;
+}
+
+#page_button_area a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sub_a_prosal_form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    width: 40%;
+}
+
+#sub_a_prosal_form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
+#sub_a_prosal_form input[type="text"],
+#sub_a_prosal_form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#submit_form {
+    width: 100%;
+    padding: 10px;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#close_sub_form {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #8B0000;
+    font-weight: bold;
+}
+
+#close_sub_form:hover {
+    color: #B13635;
+}
+
+footer {
+    background-color: #605A5A;
+    /* padding: 85px; */
+    color: white;
+    text-align: center;
+}
+
+/* Table Styling */
+#prev_sub_table {
+    width: 90%; /* Reduced width */
+    margin: 0 auto 30px auto; /* Center the table and add bottom margin */
+    border-collapse: collapse;
+}
+
+#prev_sub_table th, #prev_sub_table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#prev_sub_table th {
+    background-color: #B13635;
+    color: white;
+}
+
+#prev_sub_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#prev_sub_table tr:hover {
+    background-color: #ddd;
+}
